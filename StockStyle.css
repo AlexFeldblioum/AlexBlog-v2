@@ -1,0 +1,283 @@
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stocklist-name a:hover{
+
+   opacity: 0.5; 
+}
+
+
+/* Long (Bullish) section */
+
+.long-list{
+    background:rgba(6, 167, 0, 0.5);
+    border-radius: 30px; 
+    width:100%;
+    
+}
+
+.long-list .longList-title-name{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(20, 60, 105);
+    text-align: center;
+    background:rgba(3, 94, 0, 0.3);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 5px 5px 0px;
+    width: 49%; 
+    float: left;
+}
+
+.long-list .longList-title-data{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(20, 60, 105);
+    text-align: center;
+    background:rgba(3, 94, 0, 0.3);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 0px 5px 5px;
+    width: 49%;
+    float: right; 
+}
+.long-list .stocklist-name{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 2em;
+    color: rgb(20, 60, 105);
+    text-align: center;
+    background:rgba(3, 94, 0, 0.3);
+    border-radius: 30px;
+    margin:5px 5px 5px 0px;
+    padding: 10px 0px;
+    width: 49%;
+    
+    
+    
+}
+
+.long-list .stocklist-data{
+
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(20, 60, 105);
+    text-align: center;
+    background:rgba(3, 94, 0, 0.3);
+    border-radius: 30px;
+    margin:5px 0px 5px 5px;
+    padding: 10px 0px;
+    width: 49%;
+    
+}
+
+.stock-status-long{
+    font-family: Georgia, "Times new roman", serif;
+    color: rgb(22, 196, 22);
+    background: rgb(229, 255, 0);
+    background: -webkit-linear-gradient(left, rgba(0, 139, 23, 0.7) 0%, rgba(211, 1, 1, 0.7) 100%);
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+}
+
+
+/*************************************
+        Short (Bearish) section 
+ ************************************/
+
+.short-list{
+    background:rgba(255, 0, 0, 0.7);
+    border-radius: 30px; 
+    width: 100%;
+}
+
+.short-list .shortList-title-name{
+    
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(177, 143, 143);
+    text-align: center;
+    background:rgba(141, 0, 15, 0.6);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 5px 5px 0px;
+    width: 49%;
+    float: left;
+    
+}
+
+.short-list .shortList-title-data{
+    
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(177, 143, 143);
+    text-align: center;
+    background:rgba(141, 0, 15, 0.6);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 0px 5px 5px;
+    width: 49%;
+    float: right;
+}
+
+.short-list .stocklist-name{
+    
+    display: inline-block;
+    list-style: none;
+    font-size: 2em;
+    color: rgb(177, 143, 143);
+    text-align: center;
+    background:rgba(141, 0, 15, 0.6);
+    border-radius: 30px;
+    margin:5px 5px 5px 0px;
+    padding: 10px 0px;
+    width: 49%;
+    
+    
+}
+
+.short-list .stocklist-data{
+    
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(177, 143, 143);
+    text-align: center;
+    background:rgba(141, 0, 15, 0.6);
+    border-radius: 30px;
+    margin:5px 0px 5px 5px;
+    padding: 10px 0px;
+    width: 49%;
+   
+    
+}
+
+.stock-status-short{
+    font-family: Georgia, "Times new roman", serif;
+    color: rgb(190, 0, 0);
+    background: rgb(229, 255, 0);
+    background: -webkit-linear-gradient(left, rgba(0, 139, 23, 0.7) 0%, rgba(211, 1, 1, 0.7) 100%);
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px auto;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+}
+
+/*************************************************
+    "Current Positions" section of work
+*************************************************/
+
+.current-list{
+    background:rgba(0, 122, 131, 0.5);
+    border-radius: 30px; 
+    width: 100%;
+}
+
+.current-list .currentList-title-name{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(116, 0, 151);
+    text-align: center;
+    background:rgba(4, 0, 219, 0.3);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 5px 5px 0px;
+    width: 49%;
+    float: left;
+
+}
+
+.current-list .currentList-title-data{
+
+    display: inline-block;
+    list-style: none;
+    font-size: 3em;
+    color: rgb(116, 0, 151);
+    text-align: center;
+    background:rgba(4, 0, 219, 0.3);
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 5px 0px 5px 5px;
+    width: 49%;
+    float: right;
+}
+.current-list .stocklist-name{
+    
+    display: inline-block;
+    list-style: none;
+    font-size: 2em;
+    color: rgb(116, 0, 151);
+    text-align: center;
+    background:rgba(4, 0, 219, 0.3);
+    border-radius: 30px;
+    margin:5px 5px 5px 0px;
+    padding: 10px 0px;
+    width: 49%;
+    
+    
+}
+
+.current-list .stocklist-data{
+    
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(116, 0, 151);
+    text-align: center;
+    background:rgba(4, 0, 219, 0.3);
+    border-radius: 30px;
+    margin:5px 0px 5px 5px;
+    padding: 10px 0px;
+    width: 49%;
+   
+    
+}
+
+.stock-status-current{
+    font-family: Georgia, "Times new roman", serif;
+    color: rgb(25, 0, 255);
+    background: rgb(229, 255, 0);
+    background: -webkit-linear-gradient(left, rgba(0, 139, 23, 0.7) 0%, rgba(211, 1, 1, 0.7) 100%);
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 5px;
+    font-size: 2em;
+    width: 50%;
+}
+
+/******************************************************* 
+            Table name and data positioning
+*******************************************************/
+
+.stocklist-data{
+
+    float:right;
+}
+
+.stocklist-name{
+
+    float: left;
+}
